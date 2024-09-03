@@ -18,7 +18,12 @@ variable "private_subnet_cidr" {
   default     = "192.168.2.0/24"
 }
 
-variable "availability_zone" {
+variable "availability_zone_1" {
   description = "The availability zone to deploy the subnets"
   default     = "us-east-1a"
+}
+
+variable "availability_zone_2" {
+  description = "The availability zone to deploy the subnets"
+  default     = "us-east-1b"
 }
